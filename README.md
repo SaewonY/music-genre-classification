@@ -1,6 +1,6 @@
 # audio-classifier-convNet
 
-This repository reconstructs the results based on [this paper](https://arxiv.org/pdf/1608.04363.pdf)
+This repository's idea is based on [this paper](https://arxiv.org/pdf/1608.04363.pdf)
 
 keras is used in this 
 
