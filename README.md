@@ -81,9 +81,6 @@ Dataset consists of 8 different genres which are:
 
 </br>
 
-we could achieve up to **0.758 accuracy** with data augmentation. Before data augmentation if I remember correctly, it was around 0.55
-
-</br>
 
 ## References
 
