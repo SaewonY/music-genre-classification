@@ -10,8 +10,23 @@ Keras is used in this jupyter notebook.
 
 The Music genre we are to distinguish are based on **FMA: A DATASET FOR MUSIC ANALYSIS** which is available from this site <https://github.com/mdeff/fma>
 
+Data consists of 8 different genres which are:
 
-1. 
+1. Hip-Hop
+
+2. Pop
+
+3. Folk
+
+4. Experimental
+
+5. Rock
+
+6. International
+
+7. Electronic
+
+8. Instrumental
 
 
 </br>
@@ -19,8 +34,6 @@ The Music genre we are to distinguish are based on **FMA: A DATASET FOR MUSIC AN
 </br>
 
 ## Data
-
-</br>
 
 * `music_analysis.csv`: music file name followed by 8 genre classes.
 
