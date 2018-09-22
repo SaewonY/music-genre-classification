@@ -1,12 +1,25 @@
-# music-genre-classifier-convNet
+# music-genre-classifier-convNet-keras
 
 </br>
 
-This repository's idea is based on [this paper](https://arxiv.org/pdf/1608.04363.pdf)
+## Overview
 
-We are going to create a end-to-end Convolution Neural Network approach to distinguish between different "Musics".
+Recognizing music genre is a challenging task in the area of music info retrieval. 
 
-Keras is used in this jupyter notebook.
+In this case we made an idea of using cnn architecture to distinguish music genres. 
+
+And created a end-to-end mel-spectrogram conv2d CNN approach to distinguish between different "Musics" with Keras implementation.
+
+</br>
+
+## Requirement
+
+  * Tensorflow
+  * Keras
+  * matplotlib.pyplot
+  * librosa
+  * numpy
+  * pandas
 
 </br>
 
@@ -18,11 +31,11 @@ Keras is used in this jupyter notebook.
 
 </br>
 
-The Music genre we are to distinguish are based on **FMA: A DATASET FOR MUSIC ANALYSIS** which I got from this site <https://github.com/mdeff/fma>
+The Music genre we are to distinguish are based on [FMA: A DATASET FOR MUSIC ANALYSIS](https://github.com/mdeff/fma)
 
 </br>
 
-Data consists of 8 different genres which are:
+Dataset consists of 8 different genres which are:
 
 1. Hip-Hop
 
@@ -39,3 +52,40 @@ Data consists of 8 different genres which are:
 7. Electronic
 
 8. Instrumental
+
+</br>
+
+## Instruction
+
+</br>
+
+1. Note that all the mp3 music files are converted to wav. Here we use only 10s of music file out of 30s (you could try using 30 sec if you want to). Input sizes are (128, 431)
+
+2. load the music files using librosa.load. Here is one example of 10 sec mel-spectrogram.
+
+![3](https://user-images.githubusercontent.com/40786348/45913154-84e0c780-be68-11e8-822f-446b3d8334d0.PNG)
+
+2. assign all the genre classes a numbers ranging from 0 to 7 (pandas is used).
+
+3. implement data augmentation (time stretch 2times, pitch shift), and we get around 32000 music files.
+
+4. append all the dataset, randomly split it into 8:1:1 (train, dev, test).
+
+</br>
+
+## Training Result
+
+![1](https://user-images.githubusercontent.com/40786348/45912694-945c1280-be60-11e8-9669-dd25ef3787e5.PNG)
+
+![2](https://user-images.githubusercontent.com/40786348/45912695-96be6c80-be60-11e8-8f31-31d8c8f22ac9.PNG)
+
+</br>
+
+we could achieve up to **0.758 accuracy** with data augmentation. Before data augmentation if I remember correctly, it was around 0.55
+
+</br>
+
+## References
+
+Justin Salamon and Juan Pablo Bello, [Deep Convolutional Neural Networks and Data Augmentation for Environmental Sound Classification](https://arxiv.org/pdf/1608.04363.pdf), 2016
+
