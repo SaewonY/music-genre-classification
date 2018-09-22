@@ -6,7 +6,14 @@
 
 This repository's idea is based on [this paper](https://arxiv.org/pdf/1608.04363.pdf)
 
-keras implementation with cnn architecture
+We are going to create a Convolution Neural Network to distinguish between different "Musics".
+
+Keras is used in this jupyter notebook.
+
+The Music genre we are to distinguish are based on **FMA: A DATASET FOR MUSIC ANALYSIS** which is available from this site <https://github.com/mdeff/fma>
+
+
+1. 
 
 
 </br>
