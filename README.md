@@ -12,6 +12,14 @@ The Music genre we are to distinguish are based on **FMA: A DATASET FOR MUSIC AN
 
 </br>
 
+## Data
+
+* `music_analysis.csv`: music file name followed by 8 genre classes.
+
+* [fma_small_zip](https://os.unil.cloud.switch.ch/fma/fma_small.zip): 8,000 tracks of 30s, 8 balanced genres (GTZAN-like) (7.2 GiB)
+
+</br>
+
 Data consists of 8 different genres which are:
 
 1. Hip-Hop
@@ -29,11 +37,3 @@ Data consists of 8 different genres which are:
 7. Electronic
 
 8. Instrumental
-
-</br>
-
-## Data
-
-* `music_analysis.csv`: music file name followed by 8 genre classes.
-
-* [fma_small_zip](https://os.unil.cloud.switch.ch/fma/fma_small.zip): 8,000 tracks of 30s, 8 balanced genres (GTZAN-like) (7.2 GiB)
