@@ -8,8 +8,6 @@ We are going to create a end-to-end Convolution Neural Network approach to disti
 
 Keras is used in this jupyter notebook.
 
-The Music genre we are to distinguish are based on **FMA: A DATASET FOR MUSIC ANALYSIS** which is available from this site <https://github.com/mdeff/fma>
-
 </br>
 
 ## Data
@@ -17,6 +15,10 @@ The Music genre we are to distinguish are based on **FMA: A DATASET FOR MUSIC AN
 * `music_analysis.csv`: music file name followed by 8 genre classes.
 
 * [fma_small_zip](https://os.unil.cloud.switch.ch/fma/fma_small.zip): 8,000 tracks of 30s, 8 balanced genres (GTZAN-like) (7.2 GiB)
+
+</br>
+
+The Music genre we are to distinguish are based on **FMA: A DATASET FOR MUSIC ANALYSIS** which is available from this site <https://github.com/mdeff/fma>
 
 </br>
 
