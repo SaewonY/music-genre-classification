@@ -9,10 +9,10 @@ keras implementation with cnn architecture
 
 
 
-##Data
 
-* `tracks.csv`: per track metadata such as ID, title, artist, genres, tags and
-  play counts, for all 106,574 tracks.
+## Data
+
+* `music_analysis.csv`: wav music file name followed by 8 genre classes.
 </br>
 </br>
 </br>
