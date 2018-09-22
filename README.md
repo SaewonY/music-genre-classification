@@ -2,8 +2,6 @@
 
 </br>
 
-</br>
-
 This repository's idea is based on [this paper](https://arxiv.org/pdf/1608.04363.pdf)
 
 We are going to create a Convolution Neural Network to distinguish between different "Musics".
