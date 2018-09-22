@@ -18,7 +18,7 @@ Keras is used in this jupyter notebook.
 
 </br>
 
-The Music genre we are to distinguish are based on **FMA: A DATASET FOR MUSIC ANALYSIS** which is available from this site <https://github.com/mdeff/fma>
+The Music genre we are to distinguish are based on **FMA: A DATASET FOR MUSIC ANALYSIS** which I got from this site <https://github.com/mdeff/fma>
 
 </br>
 
