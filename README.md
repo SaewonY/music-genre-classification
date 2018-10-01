@@ -55,7 +55,7 @@ Dataset consists of 8 different genres which are:
 
 </br>
 
-## Instruction
+## Method
 
 </br>
 
@@ -65,22 +65,43 @@ Dataset consists of 8 different genres which are:
 
 ![3](https://user-images.githubusercontent.com/40786348/45913154-84e0c780-be68-11e8-822f-446b3d8334d0.PNG)
 
-2. assign all the genre classes a numbers ranging from 0 to 7 (pandas is used).
-
 3. implement data augmentation (time stretch 2times, pitch shift), and we get around 32000 music files.
 
 4. append all the dataset, randomly split it into 8:1:1 (train, dev, test).
 
-</br>
+5. train model 
 
-## Training Result
+ * 3 conv2d layers followed by average-pooling layer and lastly 2 fully-connected layers with dropout
 
-![1](https://user-images.githubusercontent.com/40786348/45912694-945c1280-be60-11e8-9669-dd25ef3787e5.PNG)
-
-![2](https://user-images.githubusercontent.com/40786348/45912695-96be6c80-be60-11e8-8f31-31d8c8f22ac9.PNG)
+ * adam optimiser, 64 mini batch_size
 
 </br>
 
+## Result
+
+**-training accuracy**
+
+![1](https://user-images.githubusercontent.com/40786348/46267570-ae88a580-c570-11e8-983f-e2dece209b18.PNG)
+
+**-training loss**
+
+![2](https://user-images.githubusercontent.com/40786348/46267575-b1839600-c570-11e8-81ee-bcb151f6e55c.PNG)
+
+</br>
+
+**-validation accuracy**
+
+![3](https://user-images.githubusercontent.com/40786348/46267576-b34d5980-c570-11e8-8fea-da47b3df3ccc.PNG)
+
+**-validation loss**
+
+![4](https://user-images.githubusercontent.com/40786348/46267578-b5171d00-c570-11e8-90e8-525fb6bdf92c.PNG)
+
+</br>
+
+**achieved around 0.71 accuracy with test set**
+
+</br>
 
 ## References
 
